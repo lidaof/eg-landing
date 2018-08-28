@@ -69,7 +69,7 @@ header.masthead::after{
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 header.masthead .masthead-content {
@@ -163,4 +163,23 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+#team {
+  background: gray;
+}
+
+#team img {
+  clip-path: circle(80px at center);
+}
+#team h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+#legacy h3 {
+  font-size: 2.5rem;
 }
