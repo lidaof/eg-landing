@@ -170,7 +170,7 @@ header.masthead .bg-circle-4 {
 }
 
 #team img {
-  clip-path: circle(80px at center);
+  clip-path: circle(55px at center);
 }
 #team h1 {
   margin-bottom: 1.5rem;
