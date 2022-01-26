@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+    font-family: "Lato";
 }
 
 h1,
@@ -8,124 +8,123 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
-  font-weight: 800 !important;
+    font-family: "Catamaran";
+    font-weight: 800 !important;
 }
 
 .btn-xl {
-  text-transform: uppercase;
-  padding: 1.5rem 3rem;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 
 .bg-black {
-  background-color: #000 !important;
+    background-color: #000 !important;
 }
 
 .rounded-pill {
-  border-radius: 5rem;
+    border-radius: 5rem;
 }
 
 .navbar-custom {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-custom .navbar-brand {
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 
 header.masthead {
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
 }
 
-header.masthead::after{
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background-image: url('../img/eg.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
-  opacity: 0.3;
+header.masthead::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-image: url("../img/eg2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity: 0.3;
 }
 
 header.masthead .masthead-content {
-  z-index: 3;
-  position: relative;
+    z-index: 3;
+    position: relative;
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  /* background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%); */
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    /* background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%); */
 }
 
 header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -55rem;
 }
 
 header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;
 }
 
 header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
 }
 
 header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
 }
 
 @media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
-  }
-  /* header.masthead .masthead-content .masthead-heading {
+    header.masthead {
+        padding-top: calc(10rem + 55px);
+        padding-bottom: 10rem;
+    }
+    /* header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
@@ -148,38 +147,218 @@ header.masthead .bg-circle-4 {
 } */
 
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
 }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+    background-color: #ff6a00;
+    border-color: #ff6a00;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #cc5500 !important;
-  border-color: #cc5500 !important;
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #cc5500 !important;
+    border-color: #cc5500 !important;
 }
 
 .btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
 #team {
-  background: gray;
+    background: gray;
 }
 
 #team img {
-  clip-path: circle(55px at center);
+    clip-path: circle(55px at center);
 }
 #team h1 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
 }
 
 #legacy h3 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 40px;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    height: 20px;
+    background-color: #777;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.react-cookienotice-stick-to-bottom {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1201;
+}
+
+.react-cookienotice-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 290px;
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 24px 32px, rgba(0, 0, 0, 0.1) 0px 8px 32px;
+    margin: 0 auto 48px;
+    background: #ffffff;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 32px;
+}
+
+.react-cookienotice-icon::before {
+    content: "🍪";
+    font-size: 2em;
+}
+
+.react-cookienotice-text {
+    color: #000000;
+    font-size: 0.8em;
+    margin: 0 20px;
+}
+
+.react-cookienotice-buttons-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.react-cookienotice-accept-button {
+    border-style: none;
+    color: #000000;
+    width: 100%;
+    font-size: 0.8em;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 12px 24px;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.react-cookienotice-accept-button:hover {
+    background: #ffffff;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.react-cookienotice-accept-button:active {
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+        0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.react-cookienotice-accept-button:focus {
+    outline: 0;
+}
+
+.react-cookienotice-read-more-button {
+    font-size: 0.8em;
+    height: auto;
+    color: #b5b5b5;
+    padding: 10px 18px;
+    border: 1px solid #b5b5b5;
+    border-radius: 24px;
+    box-shadow: none;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.5s ease 0s;
+    margin: 5px;
+}
+
+.react-cookienotice-read-more-button:hover {
+    color: #000000;
+    border-color: #000000;
+}
+
+@media screen and (min-width: 320px) {
+    .react-cookienotice-wrapper {
+        max-width: 250px;
+    }
+
+    .react-cookienotice-text {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .react-cookienotice-wrapper {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .react-cookienotice-wrapper {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .react-cookienotice-wrapper {
+        max-width: 700px;
+    }
+
+    .react-cookienotice-text {
+        font-size: 0.9em;
+    }
+
+    .react-cookienotice-buttons-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .react-cookienotice-wrapper {
+        max-width: 900px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .react-cookienotice-wrapper {
+        background: #3a3a3a;
+    }
+
+    .react-cookienotice-text {
+        color: #ffffff;
+    }
+
+    .react-cookienotice-accept-button {
+        background: #323232;
+        color: #ffffff;
+    }
+
+    .react-cookienotice-accept-button:hover {
+        background: #3a3a3a;
+    }
+
+    .react-cookienotice-read-more-button:hover {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
 }
