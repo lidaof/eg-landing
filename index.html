@@ -44,17 +44,22 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://eg.readthedocs.io/en/latest/" taregt="_blank"
+                            <a class="nav-link" taregt="_blank" href="https://epgg.github.io/"
                                 >Documentation</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/lidaof/eg-react/" taregt="_blank"
+                            <a class="nav-link" taregt="_blank" href="https://github.com/twlab/eg3"
                                 >Source code</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" taregt="_blank" href="https://join.slack.com/t/epgg/shared_invite/enQtNTA5NDY5MDIwNjc4LTlhYjJlZWM4MmRlMTcyODEzMDI0ZTlmNmM2ZjIyYmY2NTU5ZTY2MWRmOWExMDg1N2U5ZWE3NzhkMjVkZDVhNTc">Join Slack</a>
+                            <a class="nav-link" taregt="_blank" href="https://discord.gg/2PHxAEJFf7">Discord server</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" taregt="_blank" href="https://epigenomegateway.wustl.edu/browser2022/"
+                                >Previous version</a
+                            >
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#legacy">Legacy Browser</a>
@@ -69,11 +74,69 @@
             <div class="masthead-content">
                 <div class="container">
                     <h1 class="masthead-heading mb-0">WashU Epigenome Browser</h1>
-                    <a href="browser" class="btn btn-primary btn-xl rounded-pill mt-5">Go to the browser</a>
+                    <a href="https://epigenomegateway.wustl.edu/browser/" class="btn btn-primary btn-xl rounded-pill mt-5">Go to the browser</a>
                 </div>
             </div>
         </header>
+<section class="alert alert-danger text-center" role="alert" style="margin-top: 20px;">
+    <p class="lead">The website is free for any user. Please also check our <a href="https://github.com/twlab/eg3/blob/main/LICENSE.txt">Terms and Conditions of Use</a>.</p>
+</section>
+        <h1 style="margin: 20px;">2025 Major Updates</h1>
+        <section class="alert alert-success" role="alert">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 order-lg-2">
+                        <div class="p-5">
+                            <img class="img-fluid" src="img/genomehub2.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Expand datahubs to genomehubs</h2>
+                            <p>Genomehub makes visualizing data in custom genome much easier in our Browser.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="p-5">
+                            <img class="img-fluid" src="img/performace.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-5">
+                            <h2 class="display-4">Performance improvement.</h2>
+                            <p>Browser performance was improved due to significantly reduced third-party dependencies and re-design of more effcient internal data structures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="alert alert-success" role="alert">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 order-lg-2">
+                        <div class="p-5">
+                            <img class="img-fluid" src="img/hubhelper2.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Hub helper App</h2>
+                            <p>Help you make datahubs online. <a href="https://hub-helper.epigenomegateway.org/" target="_blank" rel="noopener noreferrer">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h1 style="margin: 20px;">2022 Major Updates</h1>
         <section class="alert alert-success" role="alert">
             <div class="container">
                 <div class="row align-items-center">
@@ -162,6 +225,11 @@
                     This website uses cookies to enhance the user experience.</div>
                   </span>
                 <div class="react-cookienotice-buttons-wrapper">
+                    <button id="close2" class="react-cookienotice-decline-button">
+                      <span>
+                        Decline
+                      </span>
+                    </button>
                     <button id="close" class="react-cookienotice-accept-button">
                       <span>
                         Accept
@@ -175,7 +243,7 @@
         <footer class="py-5 bg-black">
             <div class="container">
                 <p class="m-0 text-center text-white small">
-                    2022 &copy; <a href="http://wang.wustl.edu" target="_blank">Ting Wang Lab</a> @ WUSTL
+                    2025 &copy; <a href="https://wang.wustl.edu" target="_blank">Ting Wang Lab</a> @ WUSTL
                 </p>
             </div>
             <!-- /.container -->
@@ -185,22 +253,24 @@
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129313073-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-            gtag("config", "UA-129313073-1");
-        </script>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DH1Z073BR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7DH1Z073BR');
+</script>
 
         <script>
             // if (localStorage.getItem("cookieSeen") != "shown") {
             $("#cookie-banner").delay(1000).fadeIn();
             // localStorage.setItem("cookieSeen", "shown");
             // }
-
+                $("#close2").click(function (e) {
+                $("#cookie-banner").fadeOut();
+            });
             $("#close").click(function (e) {
                 $("#cookie-banner").fadeOut();
             });

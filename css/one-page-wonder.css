@@ -248,9 +248,24 @@ header.masthead .bg-circle-4 {
     flex-direction: column;
 }
 
+.react-cookienotice-decline-button {
+    border-style: none;
+    color: black;
+    width: 100%;
+    font-size: 0.8em;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 12px 24px;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    margin: 5px;
+}
+
 .react-cookienotice-accept-button {
     border-style: none;
-    color: #000000;
+    color: darkgreen;
     width: 100%;
     font-size: 0.8em;
     background: #ffffff;
